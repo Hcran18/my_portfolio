@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://github.com/Hcran18/my_portfolio' className='me-4 text-reset'>
             <MDBIcon fab icon="github" />
           </a>
         </div>
