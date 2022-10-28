@@ -1,0 +1,14 @@
+.card {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.row {
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.col {
+    padding: 20px;
+}

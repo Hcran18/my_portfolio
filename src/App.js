@@ -8,10 +8,12 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
+import Footer from "./pages/Footer";
 import NoPage from "./pages/NoPage";
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -21,9 +23,12 @@ function App() {
           <Route path="Experience" element={<Experience />} />
           <Route path="Projects" element={<Projects />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="/" element={<Footer />} />
         </Route>
       </Routes>
     </BrowserRouter>
+    <Footer />
+    </>
   );
 }
 
