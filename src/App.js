@@ -8,9 +8,11 @@ import About from "./pages/About";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
+import Reviews from "./pages/Reviews";
 import Footer from "./pages/Footer";
 import NoPage from "./pages/NoPage";
 
+/*basename="/my_portfolio/build/" (put this in browser router for the build)*/
 function App() {
   return (
     <>
@@ -22,6 +24,7 @@ function App() {
           <Route path="Education" element={<Education />} />
           <Route path="Experience" element={<Experience />} />
           <Route path="Projects" element={<Projects />} />
+          <Route path="Reviews" element={<Reviews />} />
           <Route path="/" element={<Footer />} />
           <Route path="*" element={<NoPage />} />
         </Route>
