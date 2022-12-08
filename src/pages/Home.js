@@ -1,6 +1,7 @@
 import './Home.css';
 import Carousel from 'react-bootstrap/Carousel';
-import Me from './images/Me.jpg';
+import Shauna from './images/Shauna.jpg';
+import Shauna2 from './images/Shauna2.jpg';
 import MeAndMyWife from './images/MeAndMyWife.jpg';
 import MeAndMyWife2 from './images/MeAndMyWife2.jpg';
 
@@ -10,36 +11,23 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Me}
+          src={Shauna}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>Hunter Crandall</h1>
-          <h3>This Website Should Help You to Get to Know Me</h3>
+          <h1>Shauna Crandall</h1>
+          <h3>REALTOR<sup>&reg;</sup></h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={MeAndMyWife}
-          alt="Second slide"
+          src={Shauna2}
+          alt="First slide"
         />
-
         <Carousel.Caption>
-          <h1>Hunter Crandall</h1>
-          <h3>Find Out About the Experience That I Have</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={MeAndMyWife2}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h1>Hunter Crandall</h1>
-          <h3>See Some of the Projects That I Have Worked On</h3>
+          <h1>Shauna Crandall</h1>
+          <h3>REALTOR<sup>&reg;</sup></h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

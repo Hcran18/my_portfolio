@@ -16,19 +16,13 @@ const Layout = () => {
             <Nav.Link>Home</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/About">
-            <Nav.Link>About</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/Education">
-            <Nav.Link>Education</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/Experience">
-            <Nav.Link>Experience</Nav.Link>
-        </LinkContainer>
-        <LinkContainer to="/Projects">
-            <Nav.Link>Projects</Nav.Link>
+            <Nav.Link>About Me</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/Reviews">
-            <Nav.Link>Reviews</Nav.Link>
+            <Nav.Link>Testimonials</Nav.Link>
+        </LinkContainer>
+        <LinkContainer to="/Contact">
+            <Nav.Link>Contact</Nav.Link>
         </LinkContainer>
       </Nav>
       </Navbar.Collapse>
