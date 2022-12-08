@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import './Reviews.css';
+import Bathroom from './images/Bathroom.jpg';
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([]);
@@ -62,17 +63,18 @@ const Reviews = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
     
+    /*<button onClick={e => deleteReview(review)}>Click Here to Delete the Review</button> Use this to delete reviews*/
   return (
       <>
           <Carousel controls={false}>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://brightspotcdn.byu.edu/c6/37/d653b9f8433c98325633085023b4/1905-41-2.jpg"
+              src={Bathroom}
               alt="First slide"
             />
             <Carousel.Caption>
-              <h1>Here is Some Reviews About Me</h1>
+              <h1>Here is Some Testimonials From My Customers</h1>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -124,7 +126,7 @@ const Reviews = () => {
                           <p>{review.paragraph}</p>
                         </Card.Text>
                     </div>
-                    <button onClick={e => deleteReview(review)}>Click Here to Delete the Review</button>
+                    
                   </div>
                 </Card.Body>
               </Card>

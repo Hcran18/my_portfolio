@@ -14,7 +14,7 @@ import NoPage from "./pages/NoPage";
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/my_portfolio/build/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index path='/' element={<Home />} />

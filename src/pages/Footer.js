@@ -15,6 +15,11 @@ const Footer = () => {
           </a>
         </div>
       </section>
+      
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        <img src="https://assets.jlscontent.com/images/corp/john-l-scott-logo.png" width="100" class="d-inline-block align-top" alt=""></img>
+      </div>
+
 
     </MDBFooter>
     </>
