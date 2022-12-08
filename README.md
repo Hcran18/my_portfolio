@@ -1,1 +1,1 @@
-This is my portfolio made using React CLI
+This is my creative project made using React CLI
